@@ -4,7 +4,7 @@ server:
   
 security:    
   basic:    
-    enabled: true    
+    enabled: false    
   user:    
     name: admin
     password: password
