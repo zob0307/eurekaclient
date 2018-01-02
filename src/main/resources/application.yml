@@ -1,0 +1,20 @@
+#this client server port
+server:
+  port: 9091
+  
+security:    
+  basic:    
+    enabled: true    
+  user:    
+    name: admin
+    password: password
+#remote server address
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:password@localhost:9090/eureka/
+
+spring:
+  application:
+    name: service-hi
+
